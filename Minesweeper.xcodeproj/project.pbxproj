@@ -12,15 +12,24 @@
 		791C09031832A8FE002F8BEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791C09021832A8FE002F8BEA /* UIKit.framework */; };
 		791C09091832A8FE002F8BEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 791C09071832A8FE002F8BEA /* InfoPlist.strings */; };
 		791C090B1832A8FE002F8BEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C090A1832A8FE002F8BEA /* main.m */; };
-		791C090F1832A8FE002F8BEA /* VBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C090E1832A8FE002F8BEA /* VBAppDelegate.m */; };
-		791C09121832A8FE002F8BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791C09101832A8FE002F8BEA /* Main.storyboard */; };
-		791C09151832A8FE002F8BEA /* VBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C09141832A8FE002F8BEA /* VBViewController.m */; };
 		791C09171832A8FE002F8BEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 791C09161832A8FE002F8BEA /* Images.xcassets */; };
 		791C091E1832A8FE002F8BEA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791C091D1832A8FE002F8BEA /* XCTest.framework */; };
 		791C091F1832A8FE002F8BEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791C08FE1832A8FE002F8BEA /* Foundation.framework */; };
 		791C09201832A8FE002F8BEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791C09021832A8FE002F8BEA /* UIKit.framework */; };
 		791C09281832A8FE002F8BEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 791C09261832A8FE002F8BEA /* InfoPlist.strings */; };
-		791C092A1832A8FE002F8BEA /* MinesweeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C09291832A8FE002F8BEA /* MinesweeperTests.m */; };
+		791C09361832A9A4002F8BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791C09341832A9A4002F8BEA /* Main.storyboard */; };
+		791C093F1832A9B4002F8BEA /* VBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C09391832A9B4002F8BEA /* VBViewController.m */; };
+		791C09401832A9B4002F8BEA /* VBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C093C1832A9B4002F8BEA /* VBAppDelegate.m */; };
+		791C09431832AA32002F8BEA /* VBMineGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C09421832AA32002F8BEA /* VBMineGrid.m */; };
+		791C09441832AA32002F8BEA /* VBMineGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C09421832AA32002F8BEA /* VBMineGrid.m */; };
+		791C09461832AA49002F8BEA /* VBMineGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C09451832AA49002F8BEA /* VBMineGridTests.m */; };
+		791C094E1832B1C1002F8BEA /* VBMineGrid+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C094D1832B1C1002F8BEA /* VBMineGrid+Helpers.m */; };
+		791C094F1832B1C1002F8BEA /* VBMineGrid+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C094D1832B1C1002F8BEA /* VBMineGrid+Helpers.m */; };
+		791C09511832B3B9002F8BEA /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 791C09501832B3B9002F8BEA /* libOCMock.a */; };
+		7967C408183449850011DA98 /* VBGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7967C407183449850011DA98 /* VBGridCell.m */; };
+		79BB921B1832D3400098C6DC /* VBGridContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BB921A1832D3400098C6DC /* VBGridContent.m */; };
+		79BB9223183411780098C6DC /* VBOrderedPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BB9222183411780098C6DC /* VBOrderedPair.m */; };
+		79CD11BB18346FAD007391CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CD11BA18346FAD007391CF /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,17 +51,30 @@
 		791C09081832A8FE002F8BEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		791C090A1832A8FE002F8BEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		791C090C1832A8FE002F8BEA /* Minesweeper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Minesweeper-Prefix.pch"; sourceTree = "<group>"; };
-		791C090D1832A8FE002F8BEA /* VBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBAppDelegate.h; sourceTree = "<group>"; };
-		791C090E1832A8FE002F8BEA /* VBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBAppDelegate.m; sourceTree = "<group>"; };
-		791C09111832A8FE002F8BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		791C09131832A8FE002F8BEA /* VBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBViewController.h; sourceTree = "<group>"; };
-		791C09141832A8FE002F8BEA /* VBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBViewController.m; sourceTree = "<group>"; };
 		791C09161832A8FE002F8BEA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		791C091C1832A8FE002F8BEA /* MinesweeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinesweeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		791C091D1832A8FE002F8BEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		791C09251832A8FE002F8BEA /* MinesweeperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MinesweeperTests-Info.plist"; sourceTree = "<group>"; };
 		791C09271832A8FE002F8BEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		791C09291832A8FE002F8BEA /* MinesweeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinesweeperTests.m; sourceTree = "<group>"; };
+		791C09351832A9A4002F8BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		791C09381832A9B4002F8BEA /* VBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBViewController.h; sourceTree = "<group>"; };
+		791C09391832A9B4002F8BEA /* VBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBViewController.m; sourceTree = "<group>"; };
+		791C093B1832A9B4002F8BEA /* VBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBAppDelegate.h; sourceTree = "<group>"; };
+		791C093C1832A9B4002F8BEA /* VBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBAppDelegate.m; sourceTree = "<group>"; };
+		791C09411832AA32002F8BEA /* VBMineGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBMineGrid.h; sourceTree = "<group>"; };
+		791C09421832AA32002F8BEA /* VBMineGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBMineGrid.m; sourceTree = "<group>"; };
+		791C09451832AA49002F8BEA /* VBMineGridTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBMineGridTests.m; sourceTree = "<group>"; };
+		791C09471832AA9B002F8BEA /* VBMineGrid_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBMineGrid_Private.h; sourceTree = "<group>"; };
+		791C094C1832B1C1002F8BEA /* VBMineGrid+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VBMineGrid+Helpers.h"; sourceTree = "<group>"; };
+		791C094D1832B1C1002F8BEA /* VBMineGrid+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VBMineGrid+Helpers.m"; sourceTree = "<group>"; };
+		791C09501832B3B9002F8BEA /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = usr/lib/libOCMock.a; sourceTree = "<group>"; };
+		7967C406183449850011DA98 /* VBGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBGridCell.h; sourceTree = "<group>"; };
+		7967C407183449850011DA98 /* VBGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBGridCell.m; sourceTree = "<group>"; };
+		79BB92191832D3400098C6DC /* VBGridContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBGridContent.h; sourceTree = "<group>"; };
+		79BB921A1832D3400098C6DC /* VBGridContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBGridContent.m; sourceTree = "<group>"; };
+		79BB9221183411780098C6DC /* VBOrderedPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBOrderedPair.h; sourceTree = "<group>"; };
+		79BB9222183411780098C6DC /* VBOrderedPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBOrderedPair.m; sourceTree = "<group>"; };
+		79CD11BA18346FAD007391CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79CD11BB18346FAD007391CF /* QuartzCore.framework in Frameworks */,
 				791C09011832A8FE002F8BEA /* CoreGraphics.framework in Frameworks */,
 				791C09031832A8FE002F8BEA /* UIKit.framework in Frameworks */,
 				791C08FF1832A8FE002F8BEA /* Foundation.framework in Frameworks */,
@@ -70,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791C09511832B3B9002F8BEA /* libOCMock.a in Frameworks */,
 				791C091E1832A8FE002F8BEA /* XCTest.framework in Frameworks */,
 				791C09201832A8FE002F8BEA /* UIKit.framework in Frameworks */,
 				791C091F1832A8FE002F8BEA /* Foundation.framework in Frameworks */,
@@ -101,6 +125,8 @@
 		791C08FD1832A8FE002F8BEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79CD11BA18346FAD007391CF /* QuartzCore.framework */,
+				791C09501832B3B9002F8BEA /* libOCMock.a */,
 				791C08FE1832A8FE002F8BEA /* Foundation.framework */,
 				791C09001832A8FE002F8BEA /* CoreGraphics.framework */,
 				791C09021832A8FE002F8BEA /* UIKit.framework */,
@@ -112,11 +138,11 @@
 		791C09041832A8FE002F8BEA /* Minesweeper */ = {
 			isa = PBXGroup;
 			children = (
-				791C090D1832A8FE002F8BEA /* VBAppDelegate.h */,
-				791C090E1832A8FE002F8BEA /* VBAppDelegate.m */,
-				791C09101832A8FE002F8BEA /* Main.storyboard */,
-				791C09131832A8FE002F8BEA /* VBViewController.h */,
-				791C09141832A8FE002F8BEA /* VBViewController.m */,
+				791C09371832A9B4002F8BEA /* Controllers */,
+				791C093A1832A9B4002F8BEA /* Helpers */,
+				791C093D1832A9B4002F8BEA /* Models */,
+				791C093E1832A9B4002F8BEA /* Views */,
+				791C09341832A9A4002F8BEA /* Main.storyboard */,
 				791C09161832A8FE002F8BEA /* Images.xcassets */,
 				791C09051832A8FE002F8BEA /* Supporting Files */,
 			);
@@ -137,8 +163,8 @@
 		791C09231832A8FE002F8BEA /* MinesweeperTests */ = {
 			isa = PBXGroup;
 			children = (
-				791C09291832A8FE002F8BEA /* MinesweeperTests.m */,
 				791C09241832A8FE002F8BEA /* Supporting Files */,
+				791C09451832AA49002F8BEA /* VBMineGridTests.m */,
 			);
 			path = MinesweeperTests;
 			sourceTree = "<group>";
@@ -150,6 +176,49 @@
 				791C09261832A8FE002F8BEA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		791C09371832A9B4002F8BEA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				791C09381832A9B4002F8BEA /* VBViewController.h */,
+				791C09391832A9B4002F8BEA /* VBViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		791C093A1832A9B4002F8BEA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				791C093B1832A9B4002F8BEA /* VBAppDelegate.h */,
+				791C093C1832A9B4002F8BEA /* VBAppDelegate.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		791C093D1832A9B4002F8BEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				791C09411832AA32002F8BEA /* VBMineGrid.h */,
+				791C09421832AA32002F8BEA /* VBMineGrid.m */,
+				791C09471832AA9B002F8BEA /* VBMineGrid_Private.h */,
+				791C094C1832B1C1002F8BEA /* VBMineGrid+Helpers.h */,
+				791C094D1832B1C1002F8BEA /* VBMineGrid+Helpers.m */,
+				79BB92191832D3400098C6DC /* VBGridContent.h */,
+				79BB921A1832D3400098C6DC /* VBGridContent.m */,
+				79BB9221183411780098C6DC /* VBOrderedPair.h */,
+				79BB9222183411780098C6DC /* VBOrderedPair.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		791C093E1832A9B4002F8BEA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7967C406183449850011DA98 /* VBGridCell.h */,
+				7967C407183449850011DA98 /* VBGridCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +298,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791C09361832A9A4002F8BEA /* Main.storyboard in Resources */,
 				791C09171832A8FE002F8BEA /* Images.xcassets in Resources */,
 				791C09091832A8FE002F8BEA /* InfoPlist.strings in Resources */,
-				791C09121832A8FE002F8BEA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +319,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				791C090F1832A8FE002F8BEA /* VBAppDelegate.m in Sources */,
-				791C09151832A8FE002F8BEA /* VBViewController.m in Sources */,
+				791C094E1832B1C1002F8BEA /* VBMineGrid+Helpers.m in Sources */,
+				791C09401832A9B4002F8BEA /* VBAppDelegate.m in Sources */,
+				791C093F1832A9B4002F8BEA /* VBViewController.m in Sources */,
+				79BB9223183411780098C6DC /* VBOrderedPair.m in Sources */,
+				79BB921B1832D3400098C6DC /* VBGridContent.m in Sources */,
+				7967C408183449850011DA98 /* VBGridCell.m in Sources */,
+				791C09431832AA32002F8BEA /* VBMineGrid.m in Sources */,
 				791C090B1832A8FE002F8BEA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +334,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				791C092A1832A8FE002F8BEA /* MinesweeperTests.m in Sources */,
+				791C094F1832B1C1002F8BEA /* VBMineGrid+Helpers.m in Sources */,
+				791C09441832AA32002F8BEA /* VBMineGrid.m in Sources */,
+				791C09461832AA49002F8BEA /* VBMineGridTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,20 +359,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		791C09101832A8FE002F8BEA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				791C09111832A8FE002F8BEA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		791C09261832A8FE002F8BEA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				791C09271832A8FE002F8BEA /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		791C09341832A9A4002F8BEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				791C09351832A9A4002F8BEA /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -416,7 +492,24 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/usr/include\"",
+				);
 				INFOPLIST_FILE = "MinesweeperTests/MinesweeperTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/arielrodriguez/Apps/Minesweeper/usr/lib,
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-force_load",
+					"\"$(SRCROOT)/usr/lib/libOCMock.a\"",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -435,7 +528,24 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Minesweeper/Minesweeper-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/usr/include\"",
+				);
 				INFOPLIST_FILE = "MinesweeperTests/MinesweeperTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/arielrodriguez/Apps/Minesweeper/usr/lib,
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-force_load",
+					"\"$(SRCROOT)/usr/lib/libOCMock.a\"",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -461,6 +571,7 @@
 				791C092F1832A8FE002F8BEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		791C09301832A8FE002F8BEA /* Build configuration list for PBXNativeTarget "MinesweeperTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +580,7 @@
 				791C09321832A8FE002F8BEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VBViewController : UIViewController
+@interface VBViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, UIAlertViewDelegate, UIActionSheetDelegate>
 
 @end
