@@ -11,14 +11,6 @@
 
 @implementation VBGridCell
 
-- (void)layoutSubviews {
-    
-    CALayer *contentViewLayer = [[self contentView] layer];
-    [contentViewLayer setBorderWidth:1.0];
-    [contentViewLayer setBorderColor:[[UIColor lightGrayColor] CGColor]];
-    
-}
-
 - (void)prepareForReuse {
     
     [[self button] setHidden:NO];
@@ -27,4 +19,5 @@
                    forState:UIControlStateNormal];
     
 }
+
 @end
